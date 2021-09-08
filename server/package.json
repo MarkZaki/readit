@@ -1,0 +1,25 @@
+{
+  "name": "readit-server",
+  "version": "0.1.0",
+  "description": "Backend for readit books",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Mark Zaky <@MarkZaki>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@neo4j/graphql": "^2.1.0",
+    "apollo-server": "^3.3.0",
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "neo4j-driver": "^4.3.3"
+  }
+}
